@@ -1,6 +1,6 @@
 # 👻 Coding Interview: Patterns for Coding Questions
 
-- [ ] Introduction
+- [x] Introduction
 - [ ] Sliding Window
 - [ ] Two Pointers
 - [ ] Fast & Slow pointers
