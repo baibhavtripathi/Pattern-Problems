@@ -35,9 +35,10 @@ public class AverageOfN {
         double[] res = new double[arr.length-n+1];
         for (int i = 0; i < arr.length-n+1; i++) {
             int sum = 0;
-            for (int j = i; j < i+n; j++) {
+            for (int j = i; j < i + n; j++) {
                 sum += arr[j];
-            }   res[i] = sum/(n*1.0);
+            }
+            res[i] = sum / (n * 1.0);
         }
         return res;
     }
